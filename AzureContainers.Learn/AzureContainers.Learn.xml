@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AzureContainers.Learn</name>
+    </assembly>
+    <members>
+        <member name="T:AzureContainers.Learn.Controllers.ExperimentController">
+            <summary>
+            For experiment controller api.
+            </summary>
+        </member>
+        <member name="M:AzureContainers.Learn.Controllers.ExperimentController.GetSomeMessageFromAPI">
+            <summary>
+            Simple message display the action and in the api route.
+            </summary>
+            <returns>Return simple sample object <see cref="T:AzureContainers.Learn.Models.ResponseObject"/>.</returns>
+        </member>
+        <member name="T:AzureContainers.Learn.Models.ResponseObject">
+            <summary>
+            Response object which structured JSON response for client applications.
+            </summary>
+        </member>
+        <member name="P:AzureContainers.Learn.Models.ResponseObject.StatusCode">
+            <summary>
+            Gets or sets status code.
+            </summary>
+        </member>
+        <member name="P:AzureContainers.Learn.Models.ResponseObject.Message">
+            <summary>
+            Gets or sets message.
+            </summary>
+        </member>
+        <member name="P:AzureContainers.Learn.Models.ResponseObject.Result">
+            <summary>
+            Gets or sets result of the actual types and data.
+            </summary>
+        </member>
+        <member name="T:AzureContainers.Learn.Program">
+            <summary>
+            Entry point of the application.
+            </summary>
+        </member>
+        <member name="M:AzureContainers.Learn.Program.Main(System.String[])">
+            <summary>
+            Entry point of the call the initial method.
+            </summary>
+            <param name="args">intial param environment related to run.</param>
+        </member>
+    </members>
+</doc>
